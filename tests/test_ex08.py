@@ -5,8 +5,8 @@ import pytest
 
 
 file_path = pathlib.Path(__file__)
-test_folder = file_path.parent.abslute()
-proj_folder = test_folder.parent.abslute()
+test_folder = file_path.parent.absolute()
+proj_folder = test_folder.parent.absolute()
 
 
 sys.path.insert(
